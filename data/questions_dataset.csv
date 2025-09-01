@@ -1,0 +1,101 @@
+QID,Domain,Bloom_Level,Difficulty,Question
+1,Artificial Intelligence,Knowledge,Hard,What is expert systems in AI?
+2,Cloud Computing,Knowledge,Easy,What is virtualization?
+3,Cybersecurity,Knowledge,Easy,What is encryption in cybersecurity?
+4,Machine Learning,Comprehension,Medium,Explain the working of clustering.
+5,Cloud Computing,Knowledge,Medium,What is PaaS?
+6,Cybersecurity,Knowledge,Easy,Define phishing.
+7,Cybersecurity,Evaluation,Hard,Evaluate the effectiveness of IDS against modern attacks.
+8,Cybersecurity,Evaluation,Medium,Evaluate the effectiveness of malware against modern attacks.
+9,Artificial Intelligence,Knowledge,Hard,Define Minimax.
+10,Cybersecurity,Knowledge,Hard,Define IDS.
+11,Artificial Intelligence,Knowledge,Easy,What is NLP in AI?
+12,Machine Learning,Knowledge,Hard,Define SVM.
+13,Artificial Intelligence,Analysis,Hard,Compare NLP and Minimax in AI planning.
+14,Machine Learning,Analysis,Hard,Analyze the strengths of logistic regression.
+15,Cloud Computing,Synthesis,Hard,Propose a new model integrating PaaS and IaaS.
+16,Cybersecurity,Comprehension,Hard,Describe the importance of firewalls.
+17,Artificial Intelligence,Application,Hard,Demonstrate the use of NLP in game playing.
+18,Cloud Computing,Comprehension,Hard,Explain how Kubernetes works in cloud computing.
+19,Machine Learning,Application,Easy,Apply decision trees to a classification dataset.
+20,Artificial Intelligence,Comprehension,Medium,Explain how knowledge representation contributes to intelligent systems.
+21,Artificial Intelligence,Comprehension,Medium,Explain how NLP contributes to intelligent systems.
+22,Cybersecurity,Evaluation,Hard,Evaluate the effectiveness of IPS against modern attacks.
+23,Machine Learning,Comprehension,Hard,Describe the assumptions behind SVM.
+24,Cloud Computing,Comprehension,Easy,Explain how Kubernetes works in cloud computing.
+25,Artificial Intelligence,Analysis,Medium,Compare NLP and Minimax in AI planning.
+26,Machine Learning,Analysis,Medium,Differentiate between decision trees and logistic regression.
+27,Artificial Intelligence,Analysis,Medium,Analyze the trade-offs of expert systems.
+28,Cybersecurity,Knowledge,Hard,Define firewalls.
+29,Cloud Computing,Analysis,Easy,Compare Kubernetes and containers in terms of efficiency.
+30,Machine Learning,Analysis,Hard,Differentiate between neural networks and linear regression.
+31,Artificial Intelligence,Knowledge,Hard,Define expert systems.
+32,Cybersecurity,Evaluation,Medium,Assess the limitations of encryption.
+33,Machine Learning,Analysis,Easy,Analyze the strengths of decision trees.
+34,Cybersecurity,Comprehension,Easy,Describe the importance of malware.
+35,Cybersecurity,Application,Easy,Demonstrate malware in encryption.
+36,Artificial Intelligence,Knowledge,Easy,Define Minimax.
+37,Cybersecurity,Evaluation,Hard,Evaluate the effectiveness of IDS against modern attacks.
+38,Cybersecurity,Evaluation,Hard,Evaluate the effectiveness of malware against modern attacks.
+39,Cybersecurity,Knowledge,Medium,Define encryption.
+40,Cybersecurity,Knowledge,Medium,What is IPS in cybersecurity?
+41,Artificial Intelligence,Comprehension,Medium,Describe the principles of A* search.
+42,Artificial Intelligence,Knowledge,Medium,Define A* search.
+43,Cybersecurity,Knowledge,Easy,What is malware in cybersecurity?
+44,Cloud Computing,Synthesis,Easy,Propose a new model integrating IaaS and SaaS.
+45,Artificial Intelligence,Comprehension,Medium,Describe the principles of A* search.
+46,Machine Learning,Knowledge,Hard,What is neural networks in machine learning?
+47,Cloud Computing,Synthesis,Medium,Propose a new model integrating SaaS and PaaS.
+48,Cloud Computing,Evaluation,Medium,Critique the limitations of Kubernetes.
+49,Cloud Computing,Comprehension,Easy,Explain how virtualization works in cloud computing.
+50,Cybersecurity,Application,Easy,Demonstrate IPS in encryption.
+51,Cloud Computing,Analysis,Hard,Compare PaaS and SaaS in terms of efficiency.
+52,Artificial Intelligence,Application,Easy,Demonstrate the use of A* search in game playing.
+53,Cloud Computing,Evaluation,Hard,Evaluate the effectiveness of PaaS in cloud security.
+54,Cloud Computing,Analysis,Easy,Compare PaaS and IaaS in terms of efficiency.
+55,Cloud Computing,Analysis,Easy,Analyze the impact of SaaS on scalability.
+56,Machine Learning,Comprehension,Medium,Explain the working of neural networks.
+57,Machine Learning,Application,Medium,Use linear regression for predicting outcomes.
+58,Artificial Intelligence,Application,Easy,Demonstrate the use of expert systems in game playing.
+59,Machine Learning,Comprehension,Medium,Explain the working of decision trees.
+60,Artificial Intelligence,Application,Easy,Demonstrate the use of knowledge representation in game playing.
+61,Cloud Computing,Evaluation,Medium,Critique the limitations of IaaS.
+62,Cybersecurity,Application,Hard,Demonstrate encryption in encryption.
+63,Cloud Computing,Evaluation,Hard,Critique the limitations of Kubernetes.
+64,Machine Learning,Application,Hard,Apply SVM to a classification dataset.
+65,Cybersecurity,Knowledge,Easy,Define IDS.
+66,Machine Learning,Comprehension,Easy,Explain the working of logistic regression.
+67,Artificial Intelligence,Knowledge,Medium,Define A* search.
+68,Cloud Computing,Comprehension,Medium,Explain how containers works in cloud computing.
+69,Cloud Computing,Comprehension,Medium,Explain how PaaS works in cloud computing.
+70,Machine Learning,Application,Hard,Apply decision trees to a classification dataset.
+71,Machine Learning,Analysis,Hard,Differentiate between logistic regression and decision trees.
+72,Cloud Computing,Evaluation,Medium,Critique the limitations of Kubernetes.
+73,Cybersecurity,Comprehension,Medium,Explain how IDS mitigates risks.
+74,Artificial Intelligence,Comprehension,Medium,Explain how NLP contributes to intelligent systems.
+75,Artificial Intelligence,Comprehension,Medium,Describe the principles of NLP.
+76,Cybersecurity,Comprehension,Hard,Explain how phishing mitigates risks.
+77,Cloud Computing,Analysis,Medium,Compare containers and virtualization in terms of efficiency.
+78,Cloud Computing,Analysis,Hard,Analyze the impact of Kubernetes on scalability.
+79,Cybersecurity,Evaluation,Hard,Assess the limitations of firewalls.
+80,Machine Learning,Analysis,Medium,Analyze the strengths of clustering.
+81,Cloud Computing,Knowledge,Medium,What is SaaS?
+82,Artificial Intelligence,Comprehension,Hard,Explain how expert systems contributes to intelligent systems.
+83,Cybersecurity,Application,Hard,Apply malware in securing a network.
+84,Cybersecurity,Application,Hard,Apply firewalls in securing a network.
+85,Machine Learning,Application,Easy,Apply SVM to a classification dataset.
+86,Machine Learning,Knowledge,Medium,What is decision trees in machine learning?
+87,Cloud Computing,Synthesis,Hard,Design a system using Kubernetes for optimization.
+88,Machine Learning,Comprehension,Hard,Describe the assumptions behind linear regression.
+89,Cloud Computing,Application,Medium,Apply SaaS to solve a resource management issue.
+90,Cybersecurity,Knowledge,Easy,What is malware in cybersecurity?
+91,Cybersecurity,Application,Easy,Demonstrate encryption in encryption.
+92,Cloud Computing,Synthesis,Hard,Propose a new model integrating Kubernetes and IaaS.
+93,Cybersecurity,Evaluation,Easy,Assess the limitations of encryption.
+94,Cybersecurity,Knowledge,Medium,Define firewalls.
+95,Machine Learning,Application,Hard,Use SVM for predicting outcomes.
+96,Cloud Computing,Synthesis,Easy,Propose a new model integrating SaaS and Kubernetes.
+97,Cybersecurity,Application,Medium,Apply IPS in securing a network.
+98,Artificial Intelligence,Application,Easy,Apply expert systems in robotics.
+99,Artificial Intelligence,Analysis,Medium,Compare knowledge representation and A* search in AI planning.
+100,Machine Learning,Comprehension,Hard,Explain the working of decision trees.
