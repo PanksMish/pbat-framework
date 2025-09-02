@@ -572,14 +572,68 @@ class ExperimentSimulator:
         return pd.DataFrame(results)
 
 def main():
-    """Main execution function"""
-    print("PBAT Framework Simulation Starting...")
+    """Main execution function with real data integration"""
+    print("PBAT Framework Starting...")
+    print("Checking for real datasets...")
     
-    # Initialize simulator
-    simulator = ExperimentSimulator()
-    
-    # Run experiment
-    results_df = simulator.run_experiment(n_learners=30, n_attempts=3)  # Smaller for demo
+    # Try to load real datasets first
+    try:
+        from data_loader import DataLoader, QuestionBankIntegrator
+        
+        data_loader = DataLoader()
+        validation = data_loader.validate_datasets()
+        
+        if validation['integration_ready']:
+            print("✓ Real datasets found and validated!")
+            print("Using real question bank and performance data...")
+            
+            # Load real questions
+            integrator = QuestionBankIntegrator(data_loader)
+            integrator.load_and_process_questions()
+            
+            # Show data summary
+            summary = data_loader.generate_data_summary()
+            print(summary)
+            
+            # Initialize simulator with real data
+            simulator = ExperimentSimulator()
+            
+            # Replace synthetic question generation with real questions
+            real_question_bank = integrator.convert_to_pbat_format()
+            simulator.quiz_generator.question_bank = real_question_bank
+            
+            # Load real performance data for comparison
+            real_performance = data_loader.load_student_performance()
+            print(f"Loaded real performance data: {len(real_performance)} records")
+            
+            # Run experiment with real question bank
+            print("Running experiment with real question bank...")
+            results_df = simulator.run_experiment(n_learners=30, n_attempts=3)
+            
+            # Compare with real data
+            print("\n=== REAL vs SIMULATED COMPARISON ===")
+            if 'AvgScore' in real_performance.columns:
+                real_avg = real_performance['AvgScore'].mean()
+                sim_avg = results_df[results_df['Model']=='PBAT']['AvgScore'].mean()
+                print(f"Real Average Score: {real_avg:.2f}")
+                print(f"Simulated PBAT Score: {sim_avg:.2f}")
+            
+        else:
+            print("⚠ Real datasets not found or incomplete")
+            print("Missing files or validation failed:")
+            for dataset, status in validation.items():
+                print(f"  {dataset}: {'✓' if status else '✗'}")
+            print("Falling back to synthetic data generation...")
+            raise ImportError("Real data not available")
+            
+    except (ImportError, FileNotFoundError):
+        print("Using synthetic data generation...")
+        
+        # Initialize simulator with synthetic data
+        simulator = ExperimentSimulator()
+        
+        # Run experiment with synthetic data
+        results_df = simulator.run_experiment(n_learners=30, n_attempts=3)
     
     # Save results
     results_df.to_csv('pbat_experiment_results.csv', index=False)
